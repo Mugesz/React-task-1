@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div>
         <div className='head'>
-        <h1>React Price card Task</h1>
+        <h1> Price card </h1>
         </div>
 
         <div className='container'>

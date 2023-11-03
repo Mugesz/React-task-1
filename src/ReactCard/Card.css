@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -31,7 +33,7 @@ background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgb
     background-color: whitesmoke;
     border-radius: 10px;
     margin: 20px;   
-    width: 280px;
+    width: 400px;
 }
 
 .cards:hover{
@@ -76,7 +78,6 @@ background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgb
     background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgba(6,161,110,1) 0%, rgba(20,246,255,1) 30%, rgba(0,133,176,1) 68%, rgba(2,164,110,1) 100%, rgba(5,137,139,1) 100%, rgba(0,212,255,1) 100%);
   text-align: center;
   width: 80%;
-  /* height: 35px; */
   border-radius: 20px;
   color: beige;
   border: none;
@@ -84,9 +85,9 @@ background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgb
   margin: 10px;
 }
 
-@media only screen and (max-width: 635px) and (min-width:280px){
+@media only screen and (max-width: 635px) and (min-width:200px){
     .head h1{
-        font-size:20px;
+        font-size:40px;
     }
 }
 
