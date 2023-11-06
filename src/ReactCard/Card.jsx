@@ -44,9 +44,9 @@ const Card = () => {
                     <li><span>&#10003;</span>50GB Storage</li>
                     <li><span>&#10003;</span>Unlimited Public Projects</li>
                     <li><span>&#10003;</span>Community Access</li>
-                    <li><span>&#9747;</span>Unlimited Private Projects</li>
-                    <li><span>&#9747;</span>Dedicated Phone Support</li>
-                    <li><span>&#9747;</span>Free Subdomain</li>
+                    <li><span>&#10003;</span>Unlimited Private Projects</li>
+                    <li><span>&#10003;</span>Dedicated Phone Support</li>
+                    <li><span>&#10003;</span>Free Subdomain</li>
                     <li className='headerSpan'><span>&#9747;</span>Monthly Status Reports</li>
                 </ul>
                 </div>
@@ -67,10 +67,10 @@ const Card = () => {
                     <li><span>&#10003;</span>50GB Storage</li>
                     <li><span>&#10003;</span>Unlimited Public Projects</li>
                     <li><span>&#10003;</span>Community Access</li>
-                    <li><span>&#9747;</span>Unlimited Private Projects</li>
-                    <li><span>&#9747;</span>Dedicated Phone Support</li>
-                    <li><span>&#9747;</span>Free Subdomain</li>
-                    <li><span>&#9747;</span>Monthly Status Reports</li>
+                    <li><span>&#10003;</span>Unlimited Private Projects</li>
+                    <li><span>&#10003;</span>Dedicated Phone Support</li>
+                    <li><span>&#10003;</span>Free Subdomain</li>
+                    <li><span>&#10003;</span>Monthly Status Reports</li>
                 </ul>
                 </div>
                 <div className='btn'>
