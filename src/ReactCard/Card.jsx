@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Card.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div>
         <div className='head'>
@@ -12,7 +12,7 @@ const Card = () => {
             <div className='cards'>
                 <div className='header'>
                 <p>FREE</p>
-                <h1>$0/month</h1>
+                <h1>{props.priceZero}/month</h1>
                 </div>
 
                 <div className='card-body'>
@@ -35,7 +35,7 @@ const Card = () => {
                <div className='cards'>
                 <div className='header'>
                 <p>PLUS</p>
-                <h1>$9/month</h1>
+                <h1>{props.priceNine}/month</h1>
                 </div>
 
                 <div className='card-body'>
@@ -58,7 +58,7 @@ const Card = () => {
                <div className='cards'>
                 <div className='header'>
                 <p>PRO</p>
-                <h1>$49/month</h1>
+                <h1>{props.priceForty}/month</h1>
                 </div>
 
                 <div className='card-body'>
