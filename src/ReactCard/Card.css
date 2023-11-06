@@ -85,9 +85,17 @@ background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgb
   margin: 10px;
 }
 
+button:hover {
+opacity:1
+}
+
 @media only screen and (max-width: 635px) and (min-width:200px){
     .head h1{
         font-size:40px;
+    }
+
+    button:hover {
+        opacity:1
     }
 }
 
