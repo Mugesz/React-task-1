@@ -7,35 +7,35 @@ const cardDetails = [
     plan: 0,
     feature: [
       {
-        key: "Single User",
+        keys: "Single User",
         value: true,
       },
       {
-        key: "5GB Storage",
+        keys: "5GB Storage",
         value: true,
       },
       {
-        key: "Unlimited Public Projects",
+        keys: "Unlimited Public Projects",
         value: true,
       },
       {
-        key: "Community Access",
+        keys: "Community Access",
         value: false,
       },
       {
-        key: "Unlimited Private Projects",
+        keys: "Unlimited Private Projects",
         value: false,
       },
       {
-        key: "Dedicated Phone Support",
+        keys: "Dedicated Phone Support",
         value: false,
       },
       {
-        key: "Free Subdomain",
+        keys: "Free Subdomain",
         value: false,
       },
       {
-        key: "Monthly Status Reports",
+        keys: "Monthly Status Reports",
         value: false,
       },
     ],
@@ -45,31 +45,31 @@ const cardDetails = [
     plan: 9,
     feature: [
       {
-        key: "5 User",
+        keys: "5 User",
         value: true,
       },
       {
-        key: "50GB Storage",
+        keys: "50GB Storage",
         value: true,
       },
       {
-        key: "Unlimited Public Projects",
+        keys: "Unlimited Public Projects",
         value: true,
       },
       {
-        key: "Community Access",
+        keys: "Community Access",
         value: true,
       },
       {
-        key: "Dedicated Phone Support",
+        keys: "Dedicated Phone Support",
         value: true,
       },
       {
-        key: "Free Subdomain",
+        keys: "Free Subdomain",
         value: true,
       },
       {
-        key: "Monthly Status Reports",
+        keys: "Monthly Status Reports",
         value: false,
       },
     ],
@@ -79,31 +79,31 @@ const cardDetails = [
     plan: 49,
     feature: [
       {
-        key: "Unlimited User",
+        keys: "Unlimited User",
         value: true,
       },
       {
-        key: "150GB Storage",
+        keys: "150GB Storage",
         value: true,
       },
       {
-        key: "Unlimited Public Projects",
+        keys: "Unlimited Public Projects",
         value: true,
       },
       {
-        key: "Community Access",
+        keys: "Community Access",
         value: true,
       },
       {
-        key: "Dedicated Phone Support",
+        keys: "Dedicated Phone Support",
         value: true,
       },
       {
-        key: "Free Subdomain",
+        keys: "Free Subdomain",
         value: true,
       },
       {
-        key: "Monthly Status Reports",
+        keys: "Monthly Status Reports",
         value: true,
       },
     ],

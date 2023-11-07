@@ -12,7 +12,7 @@ body{
 }
 
 small{
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .false-value{
@@ -66,7 +66,7 @@ small{
  button {
     background: rgb(9,73,121);
   text-align: center;
-  width: 400%;
+  width: 80%;
   color: beige;
   border: none;
   font-size: 80%;
@@ -76,6 +76,7 @@ small{
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
+  margin-bottom: 5px;
 }
 
 button:hover{

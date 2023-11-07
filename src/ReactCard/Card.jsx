@@ -20,7 +20,7 @@ const Card = ({ details }) => {
                 return <li className={item.value ? '' : 'false-value'}><span>{item.value ?
                   <FontAwesomeIcon icon={faCheck} /> :
                   <FontAwesomeIcon icon={faXmark} />}
-                </span>{item.key}</li>
+                </span>{item.keys}</li>
               })}
             </ul>
           </div>
