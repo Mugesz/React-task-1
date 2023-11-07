@@ -109,6 +109,8 @@ const cardDetails = [
     ],
   },
 ];
+
+
 function App() {
   return (
     <div className="App">
