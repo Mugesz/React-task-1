@@ -23,10 +23,6 @@ const cardDetails = [
         value: false,
       },
       {
-        keys: "Unlimited Private Projects",
-        value: false,
-      },
-      {
         keys: "Dedicated Phone Support",
         value: false,
       },
@@ -110,14 +106,13 @@ const cardDetails = [
   },
 ];
 
-
 function App() {
   return (
     <div className="App">
       <h1> Price card </h1>
       <div className="top-content">
-        {cardDetails.map((detail) => {
-          return <Card details={detail}></Card>;
+        {cardDetails.map((detail, index) => {
+          return <Card key={index} details={detail}></Card>;
         })}
       </div>
     </div>

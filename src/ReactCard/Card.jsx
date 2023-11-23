@@ -16,8 +16,8 @@ const Card = ({ details }) => {
 
           <div className='card-body'>
             <ul>
-              {details.feature.map((item) => {
-                return <li className={item.value ? '' : 'false-value'}><span>{item.value ?
+              {details.feature.map((item ,index) => {
+                return <li key={index} className={item.value ? '' : 'false-value'}><span>{item.value ?
                   <FontAwesomeIcon icon={faCheck} /> :
                   <FontAwesomeIcon icon={faXmark} />}
                 </span>{item.keys}</li>
